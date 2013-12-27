@@ -1,0 +1,757 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width"/>
+		<style type="text/css" media="screen">
+			
+			/*Media queries for Android. Using "min-width" and "max-width" instead "min-device-width" and "max-device-width" */
+			
+			@media only screen and (min-width: 530px) and (max-width: 599px) {
+				/*Set template width to 100% */
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 16px !important;
+				}
+				td[class=slogan] p {
+					font-size: 13px !important;
+				}
+
+				td[class=slogan] a {
+					font-size: 13px !important;
+				}
+
+			}
+
+			@media only screen and (min-width: 501px) and (max-width: 529px) {
+				/*Set template width to 100% */
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 15px !important;
+				}
+				td[class=slogan] p {
+					font-size: 13px !important;
+				}
+
+				td[class=slogan] a {
+					font-size: 13px !important;
+				}
+
+			}
+
+			@media only screen and (min-width: 441px) and (max-width: 500px) {
+				/*Set template width to 100% */
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 14px !important;
+				}
+
+				td[class=slogan] p {
+					font-size: 13px !important;
+				}
+				
+				
+				td[class=slogan] a {
+					font-size: 13px !important;
+				}
+				/*Hide Hero cell*/
+				td[class=hero] {
+					width: 2% !important;
+					height: 150px !important;
+				}
+				/*Hide Hero Image */
+				img[class=responsive-image] {
+					display: none !important;
+				}
+
+			}
+
+			@media only screen and (min-width: 100px) and (max-width: 440px) {
+				/*Set template width to 100% */
+				table[class=content-left] {
+					width: 100% !important;
+				}
+				table[class=content-right] {
+					width: 100% !important;
+				}
+
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 15px !important;
+				}
+				td[class=hero] {
+					width: 2% !important;
+					height: 150px !important;
+				}
+				/*Hide Hero Image */
+				img[class=responsive-image] {
+					display: none !important;
+				}
+
+				td[class=slogan] p, td[class=slogan] a {
+					font-size: 13px !important;
+				}
+
+			}
+
+			
+			/*Duplicated Media queries for iPhone and other iOS devices. Using "min-device-width" and "max-device-width" instead "min-width" and "max-width" */
+			
+			@media only screen and (min-device-width: 530px) and (max-device-width: 599px) {
+				/*Set template width to 100% */
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 16px !important;
+				}
+				td[class=slogan] p {
+					font-size: 13px !important;
+				}
+
+				td[class=slogan] a {
+					font-size: 13px !important;
+				}
+
+			}
+
+			@media only screen and (min-device-width: 501px) and (max-device-width: 529px) {
+
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 15px !important;
+				}
+				td[class=slogan] p {
+					font-size: 13px !important;
+				}
+
+				td[class=slogan] a {
+					font-size: 13px !important;
+				}
+
+			}
+
+			@media only screen and (min-device-width: 441px) and (max-device-width: 500px) {
+				/*Set template width to 100% */
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 14px !important;
+				}
+
+				td[class=slogan] p {
+					font-size: 13px !important;
+				}
+
+				td[class=slogan] a {
+					font-size: 13px !important;
+				}
+				td[class=hero] {
+					width: 2% !important;
+					height: 150px !important;
+				}
+				/*Hide Hero Image */
+				img[class=responsive-image] {
+					display: none !important;
+				}
+
+			}
+
+			@media only screen and (min-device-width: 100px) and (max-device-width: 440px) {
+				/*Set 1-column layout. The right column will colapse */
+				table[class=content-left] {
+					width: 100% !important;
+				}
+				/*Set 1-column layout */
+				table[class=content-right] {
+					width: 100% !important;
+				}
+				/*Set template width to 100% */
+				table[class=responsive] {
+					width: 100% !important;
+				}
+				table[class=copyrights] {
+					width: 100% !important;
+				}
+
+				h1 {
+					font-size: 15px !important;
+				}
+				td[class=hero] {
+					width: 2% !important;
+					height: 150px !important;
+				}
+
+				img[class=responsive-image] {
+					display: none !important;
+				}
+
+				td[class=slogan] p, td[class=slogan] a {
+					font-size: 13px !important;
+				}
+
+			}
+		</style>
+
+	</head>
+	<body>
+
+		<table class="body" width="100%" bgcolor="#f0f0f0">
+			<tr>
+				<td valign="top" width="100%"><!-- Email Content --><!-- STARTING TABLE CLASS="REPONSIVE" --->
+				<table align="center" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" class="responsive" style="width:600px;font-family:Arial;border:1px solid #9e9e9e;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;">
+
+					<tbody>
+						<tr>
+							<td width="100%" valign="top" bgcolor="#FFFFFF"><!-- MAIN TD -->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#FFFFFF">
+								<!-- CISCO LOGO TABLE -->
+								<tbody>
+
+									<tr>
+										<td width="100%" valign="middle" align="left" bgcolor="#FFFFFF"><a href="http://www.cisco.com/"> <img width="110" height="70" border="0" style="vertical-align:bottom;display:block" alt="Cisco Systems" src="http://www.cisco.com/web/offer/email/med/assets/2012/logo/logo_0096d6_grad.gif"> </a></td>
+
+									</tr>
+
+								</tbody>
+							</table><!-- END OF CISCO LOGO TABLE --><!-- HERO TABLE -->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#0296D4" >
+
+								<tbody>
+
+									<tr>
+										<td width="2%" style="font-size:10px;" bgcolor="#0296D4">&nbsp;</td>
+										<td class="slogan" width="63%">
+										<table style="width:100%;" cellspacing="0" cellpadding="0" border="0" bgcolor="#0296D4">
+											<tbody>
+												<tr>
+													<td style="font-size:10px;" height="2%" width="100%" bgcolor="#0296D4">&nbsp;</td>
+												</tr>
+												<tr>
+													<td width="100%" bgcolor="#0296D4"><h1 style="font-size:18px;color:#fff;font-family:Arial;margin:0;padding:0;">Cisco &ldquo;Mobile First Approach&rdquo;
+													Developer Meeting </h1></td>
+												</tr>
+												<tr>
+													<td style="font-size:10px;" height="2%" >&nbsp;</td>
+												</tr>
+												<tr>
+													<td width="100%" bgcolor="#0296D4"><span style="font-size:14px;color:#fff;font-family:Arial;font-weight:bold;margin:0;padding:0;"> Friday, October 22, 2010 </span></td>
+
+												</tr>
+												<tr>
+													<td style="font-size:10px;" height="2%" >&nbsp;</td>
+												</tr>
+												<tr>
+													<td width="100%" bgcolor="#0296D4">
+													<table class="cta" cellspacing="0" cellpadding="0" border="0" >
+														<tbody>
+															<tr>
+
+																<td align="center" valign="middle"><a style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#FFFFFF;text-decoration:none;font-weight:bold;border:0px;margin:0;padding:0;" target="_blank" href="#"> <img style="border:0px;" border="0" src="http://michaelmoney.pl/projekty/e-mail-RWD/CTA_button_green.png" width="150" height="38"></a></td>
+
+															</tr>
+														</tbody>
+													</table></td>
+
+												</tr>
+												<tr>
+													<td style="font-size:10px;" height="2%" >&nbsp;</td>
+												</tr>
+
+											</tbody>
+
+										</table></td>
+										<td width="2%" style="font-size:10px;">&nbsp;</td>
+										<td class="hero" width="33%" align="right"><img style="width:100%;height:auto;display:block;" class="responsive-image" src="http://michaelmoney.pl/projekty/e-mail-RWD/hero.jpg" alt="Cisco Systems" /></td>
+									</tr>
+
+								</tbody>
+							</table><!-- END OF HERO TABLE -->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+								<!-- PADDING TABLE -->
+								<tbody>
+									<tr>
+										<td style="font-size:31%;" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+								</tbody>
+							</table><!-- END OF PADDING TABLE -->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+								<!-- PADDING TABLE -->
+								<tbody>
+									<tr>
+										<td style="font-size:50%;" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+								</tbody>
+							</table><!-- END OF PADDING TABLE -->
+							<table class="shrink-table" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#FFFFFF" >
+
+								<!--CONTENT TABLE -->
+
+								<tbody>
+
+									<tr>
+
+										<td width="2%" bgcolor="#FFFFFF">&nbsp;</td>
+
+										<td valign="top" bgcolor="#FFFFFF" width="96%"><!-- LEFT CONTENT -->
+										<table class="content-left" width="66%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" align="left">
+											<tbody>
+
+												<tr>
+													<td style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; "><!-- HEAD TITLE  CELL --><span style="font-family:Arial,Helvetica,sans-serif;font-size:18px;color:#006699;" bgcolor="#FFFFFF">Dear Valued Customer,</span></td>
+												</tr>
+												<tr>
+													<td><!-- END OF PADDING TABLE -->
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+														<!-- PADDING TABLE -->
+														<tbody>
+															<tr>
+																<td style="font-size:50%;" bgcolor="#FFFFFF">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF PADDING TABLE --></td>
+
+												</tr>
+												<tr>
+													<td style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;margin:0;padding:0; ">
+													<p style="margin:0;padding:0;">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+													</p></td>
+												</tr>
+												<tr>
+													<td><!-- END OF PADDING TABLE -->
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+														<!-- PADDING TABLE -->
+														<tbody>
+															<tr>
+																<td style="font-size:50%;" bgcolor="#FFFFFF">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF PADDING TABLE --></td>
+
+												</tr>
+												<tr>
+													<td style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;margin:0;padding:0; "><!-- SUBTITLE --><span style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#006699;">How quickly daft jumping zebras vex</span></td>
+												</tr>
+												<tr>
+													<td><!-- END OF PADDING TABLE -->
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+														<!-- PADDING TABLE -->
+														<tbody>
+															<tr>
+																<td style="font-size:50%;" bgcolor="#FFFFFF">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF PADDING TABLE --></td>
+
+												</tr>
+												<tr>
+													<td style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;margin:0;padding:0; ">
+													<p style="margin:0;padding:0;">
+														Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy!", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz.
+													</p></td>
+												</tr>
+												<tr>
+													<td><!-- END OF PADDING TABLE -->
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+														<!-- PADDING TABLE -->
+														<tbody>
+															<tr>
+																<td style="font-size:50%;" bgcolor="#FFFFFF">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF PADDING TABLE --></td>
+
+												</tr>
+
+												<tr>
+
+													<td width="100%" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; "><!-- AGENDA TABLE -->
+													<table width="100%" cellspacing="1" cellpadding="3" border="0" bgcolor="#cdcdcd">
+														<tbody>
+															<tr>
+																<td valign="top" bgcolor="#999999" style="font-size:11px;color:#ffffff;font-family:Arial,Helvetica;" colspan="2"><strong>agenda title - event - venue - date</strong></td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#FFFFFF" nowrap="" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#FFFFFF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#EDEEEF"  style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#EDEEEF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#FFFFFF" nowrap="" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#FFFFFF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#EDEEEF" nowrap="" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#EDEEEF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#FFFFFF" nowrap="" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#FFFFFF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#EDEEEF" nowrap="" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#EDEEEF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+															<tr>
+																<td valign="top" bgcolor="#FFFFFF" nowrap="" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;"><strong>10:00 - 11:00</strong></td>
+																<td width="100%" valign="top" bgcolor="#FFFFFF" style="font-size:11px;color:#666666;font-family:Arial,Helvetica;">Registration</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF AGENDA TABLE --></td>
+
+												</tr>
+												<tr>
+													<td><!-- END OF PADDING TABLE -->
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+														<!-- PADDING TABLE -->
+														<tbody>
+															<tr>
+																<td style="font-size:50%;" bgcolor="#FFFFFF">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF PADDING TABLE --></td>
+
+												</tr>
+											</tbody>
+										</table>
+										<table width="2%" align="left" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" style="margin-right:5px;">
+											<!-- PADDING TABLE -->
+											<tbody>
+												<tr>
+													<td style="font-size:50%;">&nbsp;</td>
+												</tr>
+											</tbody>
+										</table><!-- END OF PADDING TABLE -->
+										
+										<!-- RIGHT CONTENT -->
+										<table class="content-right" width="30%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#FFFFFF" >
+
+											<tbody>
+												<tr>
+
+													<td>
+													<table width="100%" style="border:1px solid #999999;" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#FFFFFF">
+
+														<tbody>
+															<tr>
+																<td>
+																<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EFEFEF">
+																	<!-- PADDING TABLE -->
+																	<tbody>
+																		<tr>
+																			<td style="font-size:50%;" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table><!-- END OF PADDING TABLE --><!--EVENT DETAILS TABLE-->
+																<table class="info" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#EFEFEF" >
+
+																	<tbody>
+
+																		<tr>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="90%" bgcolor="#EFEFEF" height="26" style="font-family: Arial; line-height: normal; font-size: 14px; font-weight: bold; font-style: normal; color: #666666; ">Event Details</td>
+
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+
+																		</tr>
+																	</tbody>
+																</table>
+																<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EFEFEF">
+																	<!-- PADDING TABLE -->
+																	<tbody>
+																		<tr>
+																			<td style="font-size:50%;" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table><!-- END OF PADDING TABLE -->
+<!-- LOCATION TABLE -->																
+																<table class="location" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#EFEFEF" >
+
+																	<tbody>
+
+																		<tr>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="5%" bgcolor="#EFEFEF" height="26" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; "><img src="http://michaelmoney.pl/projekty/e-mail-RWD/location_icon.jpg" /></td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="70%" bgcolor="#EFEFEF" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;">Global Technology Conference
+																			<br />
+																			New York, NY</td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+
+																		</tr>
+																	</tbody>
+																</table>
+<!-- PADDING TABLE -->
+																<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EFEFEF">
+																	
+																	<tbody>
+																		<tr>
+																			<td style="font-size:50%;" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table><!-- END OF PADDING TABLE -->
+<!-- DATE TABLE -->																
+																<table class="date" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#EFEFEF" >
+
+																	<tbody>
+
+																		<tr>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="5%" bgcolor="#EFEFEF" height="26" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; "><img src="http://michaelmoney.pl/projekty/e-mail-RWD/time_icon.jpg" /></td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="70%" bgcolor="#EFEFEF" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;">Oct 6 - 10, 2013</td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table>
+<!-- PADDING TABLE -->
+																<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EFEFEF">
+																	
+																	<tbody>
+																		<tr>
+																			<td style="font-size:50%;" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table><!-- END OF PADDING TABLE -->
+
+<!-- ATTENDENCE TABLE -->																
+																<table class="attendence" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#EFEFEF" >
+
+																	<tbody>
+
+																		<tr>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="5%" bgcolor="#EFEFEF" height="26" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; "><img src="http://michaelmoney.pl/projekty/e-mail-RWD/attendance_icon.jpg" /></td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="70%" bgcolor="#EFEFEF" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;">In-person</td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table>
+<!-- PADDING TABLE -->
+																<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EFEFEF">
+																	
+																	<tbody>
+																		<tr>
+																			<td style="font-size:50%;" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table><!-- END OF PADDING TABLE -->
+
+<!-- FEE TABLE -->																
+																<table  class="fee" width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#EFEFEF" >
+
+																	<tbody>
+
+																		<tr>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="5%" bgcolor="#EFEFEF" height="26" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; "><img src="http://michaelmoney.pl/projekty/e-mail-RWD/fee_icon.jpg" /></td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																			<td width="70%" style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;">No cost</td>
+																			<td width="5%" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+
+																	</tbody>
+																</table>
+<!-- PADDING TABLE -->
+																<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#EFEFEF">
+																	
+																	<tbody>
+																		<tr>
+																			<td style="font-size:50%;" bgcolor="#EFEFEF">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table><!-- END OF PADDING TABLE -->																
+																</td>
+															</tr>
+														</tbody>
+													</table></td>
+												</tr>
+												<tr>
+													<td bgcolor="#ffffff">
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+														<!-- PADDING TABLE -->
+														<tbody>
+															<tr>
+																<td style="font-size:50%;" bgcolor="#ffffff">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table><!-- END OF PADDING TABLE --></td>
+
+												</tr>
+												<tr>
+													<td style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666; ">
+													<p>
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+													</p></td>
+												</tr>
+											</tbody>
+										</table><!-- <td width="2%">&nbsp;</td> -->
+									</tr>
+								</tbody>
+							</table><!-- END OF CONTENT TABLE --></td>
+						</tr>
+						<tr>
+							<td><!-- FOOTER SECTION-->
+							<table width="100%" cellspacing="0" cellpadding="3" border="0" bgcolor="#ffffff">
+								<tbody>
+									<tr>
+										<td>
+										<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+											<!-- PADDING TABLE -->
+											<tbody>
+												<tr>
+													<td style="font-size:50%;" bgcolor="#ffffff">&nbsp;</td>
+												</tr>
+											</tbody>
+										</table><!-- END OF PADDING TABLE --></td>
+									</tr>
+									<tr>
+										<td width="2%">&nbsp;</td>
+										<td style="font-family: Arial; line-height: normal; font-size: 12px; font-weight: normal; font-style: normal; color: #666666;"><a style="color:#19a0db;" target="_blank" href="http://www.cisco.com/web/siteassets/contacts/international.html#~tab-f"> <strong>Corporate Headquarters</strong>
+										<br>
+										Cisco Systems, Inc.
+										<br>
+										170 West Tasman Dr.
+										<br>
+										San Jose, CA 95134 USA </a>
+										<br />
+										<br />
+										<p>
+											Yours faithfully,
+											<br />
+											<br />
+
+											<strong>Cisco</strong>
+											<br />
+											<br />
+											<a style="color:#006699;" target="_blank" href="http://www.cisco.com"><strong>www.cisco.com</strong></a>
+										</p></td><td width="2%">&nbsp;</td>
+									</tr>
+								</tbody>
+							</table><!-- END OF FOOTER SECTION-->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+								<!-- PADDING TABLE -->
+								<tbody>
+									<tr>
+										<td style="font-size:30%;" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+								</tbody>
+							</table><!-- END OF PADDING TABLE --><!-- SOCIAL ICONS TABLE -->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family:Arial;" bgcolor="#FFFFFF" >
+
+								<tbody>
+									<tr>
+										<td width="2%" bgcolor="#FFFFFF">&nbsp;</td>
+										<td>
+										<table class="desktop-social" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+											<tbody>
+												<tr>
+													<td width="100%" bgcolor="#FFFFFF" valign="middle" align="right"><span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#666666;font-weight:bold;"> Stay Connected</span></td><td width="10%">&nbsp;</td>
+													<td style="padding:4px;width:24px;" bgcolor="#FFFFFF" ><a target="_blank" href="http://www.cisco.com/sms/"><img width="24" border="0" height="24" style="display:block;" alt="" src="http://michaelmoney.pl/projekty/e-mail-RWD/rss.jpg"></a></td>
+													<td style="padding:4px;width:24px;" bgcolor="#FFFFFF" ><a target="_blank" href="http://www.cisco.com/sms/"><img width="24" border="0" height="24" style="display:block;" alt="" src="http://michaelmoney.pl/projekty/e-mail-RWD/facebook.jpg"></a></td>
+													<td style="padding:4px;width:24px;" bgcolor="#FFFFFF" ><a target="_blank" href="http://www.cisco.com/sms/"><img width="24" border="0" height="24" style="display:block;" alt="" src="http://michaelmoney.pl/projekty/e-mail-RWD/twitter.jpg"></a></td>
+													<td style="padding:4px;width:24px;" bgcolor="#FFFFFF" ><a target="_blank" href="http://www.cisco.com/sms/"><img width="24" border="0" height="24" style="display:block;" alt="" src="http://michaelmoney.pl/projekty/e-mail-RWD/googleplus.jpg"></a></td>
+													<td style="padding:4px;width:24px;" bgcolor="#FFFFFF"><a target="_blank" href="http://www.cisco.com/sms/"><img width="24" border="0" height="24" style="display:block;" alt="" src="http://michaelmoney.pl/projekty/e-mail-RWD/youtube.jpg"></a></td>
+
+													<td width="10%" bgcolor="#FFFFFF">&nbsp;</td>
+
+												</tr>
+											</tbody>
+										</table></td><td width="2%" bgcolor="#FFFFFF">&nbsp;</td>
+
+									</tr>
+								</tbody>
+							</table><!-- END OF SOCIAL ICONS TABLE -->
+							<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
+								<!-- PADDING TABLE -->
+								<tbody>
+									<tr>
+										<td style="font-size:30%;" bgcolor="#FFFFFF">&nbsp;</td>
+									</tr>
+								</tbody>
+							</table><!-- END OF PADDING TABLE --></td>
+						</tr>
+						<tr>
+							<td width="100%" bgcolor="#0296D4" ><!-- FOOTER SECTION -->
+							<table height="50" width="100%" style="min-width: 100% !important;" cellspacing="0" cellpadding="0" border="0" bgcolor="#0296D4">
+
+								<tbody>
+
+									<tr>
+										<td bgcolor="#0296D4" width="82%" valign="middle" >&nbsp;</td><td style="text-align:right;" bgcolor="#0296D4" width="18%" valign="middle"><img style="text-align:right;display:block;" src="http://michaelmoney.pl/projekty/e-mail-RWD/cisco_logo_transparent_white.png" alt="Cisco Logo Footer Logo"></td>
+									</tr>
+
+								</tbody>
+							</table><!-- END OF FOOTER SECTION --></td>
+						</tr>
+
+					</tbody>
+				</table><!-- END OF TABLE CLASS="RESPONSIVE" --><!-- COPYRIGHT SECTION -->
+				<table class="copyrights" width="600" cellspacing="0" cellpadding="0" border="0" style="line-height:1;"  bgcolor="#f0f0f0" align="center">
+					<tbody>
+						<tr>
+							<td width="5%" bgcolor="#f0f0f0">&nbsp;</td>
+							<td width="95%" bgcolor="#f0f0f0">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="5%" bgcolor="#f0f0f0">&nbsp;</td>
+							<td width="95%" bgcolor="#f0f0f0" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#AAAAAA;" ><span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#AAAAAA;">All contents are Copyright &copy;1992-2013 Cisco Systems Inc. All rights reserved.
+								<br>
+								<a style="color:#AAAAAA;" target="_blank" href="http://www.cisco.com/web/siteassets/legal/terms_condition.html">Terms &amp;Conditions</a> | <a style="color:#AAAAAA;" target="_blank" href="http://www.cisco.com/web/siteassets/legal/privacy.html">Privacy Statement</a> | <a style="color:#AAAAAA;" target="_blank" href="http://www.cisco.com/web/siteassets/legal/privacy.html#cookies">Cookie Policy</a> | <a style="color:#AAAAAA;" target="_blank" href="http://www.cisco.com/web/siteassets/legal/trademark.html">Trademarks</a></span></td>
+						</tr>
+						<tr>
+							<td width="5%" bgcolor="#f0f0f0">&nbsp;</td>
+							<td width="95%" bgcolor="#f0f0f0">&nbsp;</td>
+						</tr>
+					</tbody>
+				</table></td>
+			</tr>
+		</table><!-- COPYRIGHT SECTION -->
+
+	</body>
+</html>
+
